@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>org.libdohj</groupId>
-    <artifactId>libdohj-parent</artifactId>
-    <version>0.14-dogethereum-3</version>
+    <groupId>org.libsyshj</groupId>
+    <artifactId>libsyshj-parent</artifactId>
+    <version>0.14-sysethereum-3</version>
     <packaging>pom</packaging>
 
     <modules>
@@ -17,14 +17,14 @@
     </parent>
 
     <scm>
-        <connection>scm:git:https://github.com/dogecoin/libdohj</connection>
-        <developerConnection>scm:git:https://github.com/dogecoin/libdohj</developerConnection>
-        <url>scm:git:https://github.com/dogecoin/libdohj</url>
+        <connection>scm:git:https://github.com/syscoin/libsyshj</connection>
+        <developerConnection>scm:git:https://github.com/syscoin/libsyshj</developerConnection>
+        <url>scm:git:https://github.com/syscoin/libsyshj</url>
     </scm>
 
-    <name>libdohj Parent</name>
-    <description>Provides the common configuration for the libdohj modules</description>
-    <url>https://libdohj.org/</url>
+    <name>libsyshj Parent</name>
+    <description>Provides the common configuration for the libsyshj modules</description>
+    <url>https://libsyshj.org/</url>
 
     <licenses>
         <license>
@@ -37,7 +37,7 @@
 
     <issueManagement>
         <system>Github</system>
-        <url>https://github.com/dogecoin/libdohj/issues</url>
+        <url>https://github.com/syscoin/libsyshj/issues</url>
     </issueManagement>
 
     <!-- Common build plugin configuration -->
@@ -147,7 +147,7 @@
             <artifactId>slf4j-api</artifactId>
             <version>1.7.7</version>
         </dependency>
-        <!-- libdohj consumers are expected to provide their own SLF4J adapters
+        <!-- libsyshj consumers are expected to provide their own SLF4J adapters
         such as logback, slf4j-log4j12, slf4j-jcl and so on
         see http://www.slf4j.org/faq.html -->
         <dependency>

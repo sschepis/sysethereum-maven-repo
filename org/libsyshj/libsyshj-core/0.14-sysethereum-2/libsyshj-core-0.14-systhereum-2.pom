@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>org.libdohj</groupId>
-    <artifactId>libdohj-core</artifactId>
-    <version>0.14-dogethereum-3</version>
+    <groupId>org.libsyshj</groupId>
+    <artifactId>libsyshj-core</artifactId>
+    <version>0.14-sysethereum-2</version>
     <packaging>jar</packaging>
 
     <licenses>
@@ -17,8 +17,8 @@
     <!-- Dummy block to make Maven Central happy: authors list is in AUTHORS -->
     <developers>
         <developer>
-            <name>The libdohj team.</name>
-            <email>info@dogecoin.com</email>
+            <name>The libsyshj team.</name>
+            <email>info@syscoin.com</email>
         </developer>
     </developers>
     <profiles>
@@ -110,7 +110,7 @@
         <dependency>
             <groupId>org.bitcoinj</groupId>
             <artifactId>bitcoinj-core</artifactId>
-            <version>0.14.2-dogethereum-2</version>
+            <version>0.14.2-sysethereum-2</version>
         </dependency>
     </dependencies>
     <properties>
@@ -118,12 +118,12 @@
         <maven.compiler.source>1.6</maven.compiler.source>
         <maven.compiler.target>1.6</maven.compiler.target>
     </properties>
-    <name>libdohj</name>
+    <name>libsyshj</name>
     <repositories>
         <repository>
-            <id>dogethereumGithub</id>
+            <id>sysethereumGithub</id>
             <name>Dogethereum Github</name>
-            <url>https://raw.github.com/dogethereum/maven-repo/master/</url>
+            <url>https://raw.github.com/sysethereum/maven-repo/master/</url>
         </repository>
     </repositories>
 
